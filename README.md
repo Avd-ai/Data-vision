@@ -4,6 +4,7 @@ Below were the tasks performed:
 1) Access live tweet data using twitter development account
 2) Derive the sentiment of each tweet
 - A list of sentiment words was available, where number of words had a sentiment score assigned, eg. happy  +3
+- This information is available in the file AFINN.txt
 3) Derive the sentiment of the new terms
 4) Compute term frequency
 5) Find the top ten trending hashtags
