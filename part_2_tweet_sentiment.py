@@ -1,9 +1,7 @@
 ''' This file is to be used from terminal. And that would be in format as below:
-#   python tweet_sentiment.py Afinn-111.txt problem_1_submission.txt
- Here, Afinn is file name consisting of scores for variuos words, and 
-   problem_1_submission.txt is the file full of tweets retrieved from the twitter site
-
- In similar fashion, we can type "python tweet_sentiment.py Afinn-111.txt output.txt" as well.
+#   python tweet_sentiment.py Afinn-111.txt output.txt
+ Here, Afinn is file name consisting of scores for various words, and 
+   output.txt is the file full of tweets retrieved from the twitter site
 '''
 
 
