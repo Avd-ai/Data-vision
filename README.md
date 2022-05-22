@@ -7,12 +7,12 @@ Moreover, as an example of finding a valuable insight, this project finds the to
 Finally, the analysis of tweets based on country of origin is also done
 
 Below were the tasks performed:
-1) Access live tweet data using twitter development account
-2) Derive the sentiment of each tweet
+1) "part_1_twitterstream_py3.py" file accesses live tweet data using twitter development account. You need to request for having a developer account.
+2) "part_2_tweet_sentiment.py" derives the sentiment of each tweet accessed/
 - A list of sentiment words was available, where number of words had a sentiment score assigned, eg. happy  +3
 - This information is available in the file AFINN-111.txt
-3) Derive the sentiment of the new terms
-4) Compute term frequency
-5) Find the top ten trending hashtags
-6) Use the tweet object data for analyses
- Here, I accessed the country of the tweet, and computed the total sentiment score for various countries from the limited number of tweets retrieved.
+3) "part_3_term_sentiment.py" derives the sentiment of the new terms.
+4) "part_4_frequency.py" computes term frequency of various words.
+5) "part_5_top_ten.py" finds the top ten trending hashtags
+6) "part_5_top_ten.py" - use the tweet object data for analyses. Here, I find the happiest country, based on average sentiment score of tweets.
+ Here, I accessed the country of the tweet.
